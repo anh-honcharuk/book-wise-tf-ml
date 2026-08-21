@@ -1,0 +1,18 @@
+[project]
+name = "bookwise"
+version = "0.1.0"
+description = "BookWise"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "tensorflow>=2.20",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+    "jupyter",
+    "datasets>=5.0.1",
+    "pyarrow>=25.0.1",
+    "tf-keras>=2.21.0",
+    "transformers==4.49.0",
+    "streamlit>=1.62.0",
+]
